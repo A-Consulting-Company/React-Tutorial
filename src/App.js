@@ -11,6 +11,11 @@ import ClassEvent from "./components/ClassEvent";
 import FunctionalCounter from "./components/FunctionalCounter";
 import ConditionalComponent from "./components/ConditionalComponent";
 import Product from "./components/Product";
+import Form from "./components/Form";
+import ToDo from "./components/ToDo";
+// import InlineComponent from "./components/InlineComponent";
+import StylesheetComponent from "./components/StylesheetComponent";
+import ModuleComponent from "./components/ModuleComponent";
 
 const name = "Lilly";
 
@@ -26,8 +31,13 @@ function App() {
       <Message messagecode={404} messagecontent="Nada found"></Message>
       <Counter_binding></Counter_binding>
       <FunctionalCounter></FunctionalCounter>
-      <ConditionalComponent></ConditionalComponent> */}
-      <Product></Product>
+      <ConditionalComponent></ConditionalComponent> */}  
+      {/* <Product></Product> */}
+      {/* <Form></Form> */}
+      {/* <ToDo></ToDo> */}
+      {/* <InlineComponent></InlineComponent> */}
+      {/* <StylesheetComponent></StylesheetComponent> */}
+      <ModuleComponent></ModuleComponent>
     </div>
   );
 }
